@@ -34,10 +34,8 @@ coverage
 flake8
 """.split("\n")
 
-# dependency_links = ['http://github.com/nicolaiarocci/eve.git@develop']
-
 version = readfile("VERSION")[0].strip()
-readme = readfile('README.rst')
+readme = readfile('README.md')
 
 NAME = "cloudmesh.proceedings"
 DESCRIPTION = "A command called proceedings and foo for the cloudmesh shell"
